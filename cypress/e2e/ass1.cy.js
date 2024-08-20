@@ -73,12 +73,6 @@ describe("URL Launching",()=>{
         cy.get('.content.col-md-8.pl-0').contains('Explore ASU degrees for Starbucks partners');
     })
 
-    //invalid url
-    it('starbucks',()=>{
-        cy.visit('https://starbucks.asu.edu/starbucks-asu-degree-listtttt');
-        cy.get('.content.col-md-8.pl-0').should('be.visible');
-        cy.get('.content.col-md-8.pl-0').contains('Explore ASU degrees for Starbucks partners');
-    })
 
     // it('uber',()=>{
     //     cy.visit('https://uber.asu.edu/');
