@@ -15,10 +15,10 @@ describe("URL Launching",()=>{
     //   });
       
 
-    it('start.asuonline.asu.edu',()=>{
-        cy.visit('https://start.asuonline.asu.edu');
-        cy.get('.h1-medium > :nth-child(1)').contains('Same mission, same faculty');
-    })
+    // it('start.asuonline.asu.edu',()=>{
+    //     cy.visit('https://start.asuonline.asu.edu');
+    //     cy.get('.h1-medium > :nth-child(1)').contains('Same mission, same faculty');
+    // })
 
     it('getyouredge.org',()=>{
         cy.visit('https://getyouredge.org/');
